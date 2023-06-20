@@ -1,0 +1,195 @@
+body {
+    background-color: hsl(217, 54%, 11%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1440px;
+    height: 100vh;
+}
+
+
+.card  {
+
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(216, 50%, 16%);
+    width:350px;
+    height: 596px;
+    
+}
+
+
+
+.img-conteiner img {
+    margin-top: 24px;
+    border-radius: 8px;
+    position: relative;
+    width:302px;
+    height:302px;
+    
+
+}
+
+
+
+
+.img-conteiner:hover .overlay {
+    display: flex;
+    cursor: pointer;
+    transition: 3s;
+}
+
+.overlay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:302px;
+    height:302px;
+    background: rgba(0, 255, 247, 0.328);
+    border-radius: 8px;
+    position: absolute;
+    top: 152px;
+    display: none;
+    
+}
+
+.overlay img{
+    width: 44px; 
+    height: 44px;
+
+}
+.eye {
+
+    width: 44px;
+    height: 30px;
+}
+.info {
+    
+    margin-left: 24px;
+    margin-right: 24px;
+   
+    
+}
+
+
+
+h1 {
+    width: 302px;
+    height: 28px;
+    color: white;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 28px;
+    margin-top: 22px;
+    transition: 0.5s;
+}
+
+
+.info:hover h1 {
+    
+    color: #00FFF8;
+    cursor: pointer;
+} 
+
+p  {
+    color: #8BACD9;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 26px;  
+    margin-top: 22px;
+}
+
+.amount {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 302px;
+}
+
+
+.ETH {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: #00FFF8;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    
+}
+
+
+
+.days {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: #8BACD9;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+
+
+hr {
+    margin-top: 24px;
+}
+
+
+
+.name-overlay {
+    color: #8BACD9;
+    transition: 0.5s;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.created:hover .name-overlay {
+    color: #00FFF8;
+}
+
+
+.created {
+    
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 302px;
+    
+}
+
+.avatar {
+   
+    width:33px;
+    height:33px;
+    margin-right: 16px;
+}
+
+
+.ethereum {
+    margin-right: 6px;
+    width:11px;
+    height:12,43px;
+}
+
+.clock  {
+    margin-right: 6px;
+}
